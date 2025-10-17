@@ -1,0 +1,1 @@
+(function(e){"use strict";e(window).on("elementor/frontend/init",function(){elementorFrontend.waypoint=function(e,t,n){if(e.length<=0)return;const s={offset:"100%",triggerOnce:!0};n=jQuery.extend(s,n);const o=function(){const e=this.element||this,s=t.apply(e,arguments);return n.triggerOnce&&this.destroy&&this.destroy(),s};return e.elementorWaypoint(o,n)}})})(jQuery)
